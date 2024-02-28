@@ -9,7 +9,7 @@ class MiListaCard extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: "Mi ListView Gonzalez",
-      theme: ThemeData(primaryColor: Colors.brown),
+      theme: ThemeData(primarySwatch: Colors.brown),
       home: PaginaInicial(),
     );
   }
